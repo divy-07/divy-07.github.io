@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script>
+
+           //basic functions
+
+            function fun1()
+                {
+                    var var1 = parseFloat(document.getElementById('num1').value);
+                    var var2 = parseFloat(document.getElementById('num2').value);
+
+                    var opr = document.getElementById('oper').value;
+                    if (opr === '+')
+                        {
+                            document.getElementById('result').value = var1 + var2;
+                        }
+                    if (opr === '-')
+                        {
+                            document.getElementById('result').value = var1 - var2;
+                        }
+                    if (opr === '*')
+                        {
+                            document.getElementById('result').value = var1 * var2;
+                        }
+                    if (opr === '/')
+                        {
+                            document.getElementById('result').value = var1 / var2;
+                        }
+                }
+
+            // power calculator
+
+            function fn2()
+                {
+                    var var3 = parseFloat(document.getElementById('base').value);
+                    var var4 = parseFloat(document.getElementById('exponent').value);
+
+                    document.getElementById('result1').value = Math.pow(var3,var4);
+                }
+
+            // trig calculator
+
+            function fn3()
+                {
+                    var var5 = document.getElementById('angle').value;
+
+                    var oper = document.getElementById('trig').value;
+
+                    if (oper === 'sin')
+                        {
+                            document.getElementById('result3').value = Math.sin (var5 * Math.PI / 180); 
+                        }
+                    if (oper === 'cos')
+                        {
+                            document.getElementById('result3').value = Math.cos (var5 * Math.PI / 180); 
+                        }
+                    if (oper === 'tan')
+                        {
+                            document.getElementById('result3').value = Math.tan (var5 * Math.PI / 180); 
+                        }
+                }
+
+            // square calculator
+
+            function fn4()
+                {
+                    var var6 = document.getElementById('num3').value;
+
+                    document.getElementById('result4').value = var6 * var6;
+                }
+
+            // square root calculator
+
+            function fn5()
+                {
+                    var var7 = document.getElementById('num4').value;
+
+                    document.getElementById('result5').value = Math.sqrt(var7);
+                }
+            
+        </script>
+
+    </head>
+
+    <body>
+
+        <h1>Basic Functions</h1>
+
+            <input id="num1" type="text" placeholder="First Number"/>
+
+            <select id="oper">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+
+            <input id="num2" type="text" placeholder="Second Number"/>
+
+            <button onclick="fn1();">=</button>
+
+            <input type="text" id="result" placeholder="Result"/>
+
+        <h1>Power Calculator</h1>
+
+            <input id="base" type="text" placeholder="Base"/>
+
+            <input id="exponent" type="text" placeholder="Exponent"/>
+
+            <button onclick="fn2();">=</button>
+
+            <input type="text" id="result1" placeholder="Result"/>
+
+        <h1>Trigonometry Calculator</h1>
+
+            <select id="trig">
+                <option value="sin">sin</option>
+                <option value="cos">cos</option>
+                <option value="tan">tan</option>
+            </select>
+            
+            <input id="angle" type="text" placeholder="Angle(in degrees)"/>
+
+            <button onclick="fn3();">=</button>
+
+            <input id="result3" type="text" placeholder="Result"/>
+
+        <h1>Square and Square Root Calculator</h1>
+
+            <h4>Square Calculator</h4>
+
+            <input type="text" id="num3" placeholder="Enter Number Here"/><sup>2</sup>
+
+            <button onclick="fn4();">=</button>
+
+            <input type="text" id="result4" placeholder="Result"/>
+
+            <h4>Square Root Calculator</h4>
+
+            √         <input type="text" id="num4" placeholder="Enter Number Here"/>
+
+            <button onclick="fn5();">=</button>
+
+            <input type="text" id="result5" placeholder="Result"/>
+        
+    </body>
+
+
+</html>
