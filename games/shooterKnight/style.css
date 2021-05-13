@@ -86,3 +86,18 @@ th, td{
     padding-bottom: 1vw;
     text-align: center;
 }
+
+.title_and_images {
+    margin: auto;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 2vw;
+}
+
+.images {
+    width: 30vw;
+    height: auto;
+}
