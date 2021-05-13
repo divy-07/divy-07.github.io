@@ -58,26 +58,43 @@ ul li.active a{
 }
 
 .content{
-    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+}
+
+.main_table{
+    width: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links{
+    text-decoration: underline;
+    color: black;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.content tr td h1{
+    margin: auto;
+    font-size: 450%;
 }
 
 .image{
-    margin: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     width: 20vw;
     height: auto;
-    align-self: center;
 }
 
-@media (max-width: 850px) {
-    .content{
-        flex-direction: column;
-    }
-
-    .image{
-        margin-right: 20vw;
-    }
-}
-
-.text{
-    margin: 3vw;
+.main_text {
+    font-size: 26px;
+    line-height: 180%;
+    width: 60vw;
+    text-align: justify;
+    text-justify: inter-word;
 }
