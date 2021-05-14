@@ -59,6 +59,7 @@ ul li.active a{
 }
 
 .main_table{
+    font-size: 150%;
     width: 80vw;
     margin-right: 10vw;
     margin-left: 10vw;
