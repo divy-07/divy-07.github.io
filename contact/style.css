@@ -61,6 +61,8 @@ ul li.active a{
     width: 5vw;
     height: auto;
     padding: 0.6vw;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
 }
 
 .main_table{
