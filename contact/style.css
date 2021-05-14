@@ -28,6 +28,7 @@ ul li{
 }
 
 ul li a{
+    font-size: 190%;
     text-decoration: none;
     color: black;
     margin: 1vw;
