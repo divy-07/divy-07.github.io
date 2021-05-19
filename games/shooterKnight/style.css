@@ -102,5 +102,8 @@ h1 {
 
 .images {
     width: 30vw;
-    height: auto;
+    height: 18vw;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;height: auto;
 }
