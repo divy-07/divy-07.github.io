@@ -68,12 +68,12 @@ ul li.active a{
 }
 
 .links{
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
 .links:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .icons{
