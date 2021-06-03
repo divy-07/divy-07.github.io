@@ -107,3 +107,8 @@ h1 {
     margin-left: 1vw;
     margin-right: 1vw;
 }
+
+.source_code {
+    text-align: center;
+    font-size: 2vw;
+}
