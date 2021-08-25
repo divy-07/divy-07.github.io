@@ -64,7 +64,6 @@ ul li.active a{
     margin-right: 10vw;
     margin-left: 10vw;
     margin-top: 2vw;
-    margin-bottom: 5vw;
 }
 
 .links{
@@ -106,4 +105,25 @@ h1 {
     margin-bottom: 2vw;
     margin-left: 1vw;
     margin-right: 1vw;height: auto;
+}
+
+.source_code {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.description {
+    width: 80vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}
+
+.description h2 {
+    text-align: center;
+}
+
+.description h3 {
+    margin-top: 2vw;
 }
