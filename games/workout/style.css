@@ -127,3 +127,8 @@ h1 {
 .description h3 {
     margin-top: 2vw;
 }
+
+.direction_img {
+    height: 18vw;
+    width: auto;
+}
