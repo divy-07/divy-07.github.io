@@ -127,3 +127,8 @@ h1 {
 .description h3 {
     margin-top: 2vw;
 }
+
+.content p {
+    text-align: center;
+    font-size: 130%;
+}
