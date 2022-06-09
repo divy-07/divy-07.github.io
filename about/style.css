@@ -70,12 +70,17 @@ ul li.active a{
     margin-right: auto;
 }
 
-.cell_1 {
+.my_pic {
     width: 30vw;
 }
 
-.cell_2 {
+.name_and_resume {
     width: 50vw;
+}
+
+.name_and_resume h2{
+    text-align: center;
+    font-size: 290%;
 }
 
 .links{
